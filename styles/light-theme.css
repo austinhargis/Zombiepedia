@@ -1,0 +1,252 @@
+/*
+
+    Author: Austin Hargis
+    Creation Date: 9/3/20
+
+ */
+
+/*
+
+    Author: Austin Hargis
+    Creation Date: 9/3/20
+
+ */
+
+html, a {
+    font-family: "Trebuchet MS";
+    color: black;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 5px;
+}
+
+/* scrollArea is a class used on all pages to create a div that can be scrolled independently of the actual body */
+.scrollArea {
+
+    margin: 25px 50px 0px 50px;
+
+    background-color: rgba(237,237,237,0.8);
+
+    padding: 15px;
+    /*max-height: 75%;*/
+    overflow-y: auto;
+
+    border-radius: 10px;
+}
+
+.scrollArea h2 {
+    font-size: 35px;
+    color: rgb(199, 40, 12);
+}
+
+.scrollArea h3 {
+    font-size: 25px;
+    color: rgb(199, 40, 12);
+}
+
+/* creates a div that is formatted to display links in a compact space */
+.popularLinks {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 50px 0px 50px;
+    background-color: rgba(237,237,237,0.8);
+    color: black;
+
+    color: rgb(199, 40, 12);
+    padding: 5px 15px 15px 15px;
+    border-radius: 10px;
+
+    min-width: 10%;
+    max-height: 50%;
+}
+
+.popularLinks ul, ol {
+    margin: 0;
+    padding: 0;
+    color: rgb(199, 40, 12);
+}
+
+/* used on account registration and login */
+.accountField {
+    background-color: rgba(237,237,237,0.8);
+    color: black;
+    padding: 15px;
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* creates the standard formatting for the div used on all blog posts */
+.blogPosts {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 25px 0px 50px;
+
+    background-color: rgba(237,237,237,0.8);
+    max-height: 600px;
+    overflow-y: auto;
+
+    color: black;
+    padding: 15px 25px 0px 25px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: white;
+    margin: 0px 25px 0px 25px;
+    border-radius: 10px;
+}
+.navBar a {
+    font-size: 20px;
+    color: black;
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: left;
+}
+/* .dropbtn:hover */
+.navBar a:hover {
+    background-color: white;
+}
+
+.dropdown .dropbtn {
+    margin: 0;
+    background-color: inherit;
+    outline: none;
+    font-family: inherit;
+    font-size: 20px;
+    color: black;
+    padding: 14px 16px;
+    border: none;
+}
+.dropdown-content a {
+    color: black;
+    float: none;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /*#444444 color of the actual dropdown stuff */
+    /*z-index: 1;*/
+}
+.dropdown-content a:hover {
+    background-color: white; /*#222222 set the dropdown menu hover color */
+}
+
+.scrollArea p, ul, li, ol {
+    font-size: 18px;
+    color: black;
+}
+
+.gameInfoDisplay h3 {
+    color: rgb(199, 40, 12);
+    font-size: 25px;
+}
+.gameInfoDisplay h4 {
+    color: rgb(199, 40, 12);
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 25px;
+}
+
+.gameList tr {
+    border-bottom: 1px solid black;
+}
+
+.gameList table {
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    margin-left: 15px;
+}
+
+body {
+    background-image: url("https://zombiepedia.net/backgroundImgs/der_eisendrache.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.guideDescription {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 80%;
+
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 25px 0px 50px;
+    background-color: rgba(237,237,237,0.8);
+
+    /*background-color: rgba(237, 237, 237,0.9);*/
+    max-height: 600px;
+    overflow-y: auto;
+
+    color: black;
+    padding: 15px 25px 0px 25px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+}
+
+.guideContents {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 50px 0px 0px;
+    background-color: rgba(237,237,237,0.8);
+
+    color: rgb(199, 40, 12);
+    padding: 5px 15px 15px 15px;
+    border-radius: 10px;
+
+    min-width: 10%;
+    max-height: 50%;
+}
+
+.blogPosts h2, h3 {
+    color: rgb(199, 40, 12);
+}
+a {
+    color: rgb(199, 40, 12);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+
+    .scrollArea {
+        /*margin: 0;*/
+        /*padding: 0;*/
+        /*width: 100%;*/
+    }
+
+    .popularLinks {
+        display: none;
+    }
+
+}

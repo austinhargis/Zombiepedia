@@ -1,0 +1,140 @@
+/*
+
+    Author: Austin Hargis
+    Creation Date: 9/3/20
+
+ */
+
+/* class for all displayed images */
+.helpImage {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.helpImage img {
+    width: 375px;
+    height: auto;
+}
+
+/* meant to be used on a div tag that encapsulates an img that has captions */
+.photoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+}
+
+/* applied to captions meant to be displayed under photos */
+.imgCaption {
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Zombiepedia text on the top of all pages */
+.headerText {
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.popularLinks a {
+    text-decoration: none;
+}
+
+.popularLinks h2 {
+    text-align: center;
+}
+
+.popularLinks li {
+    display: inline;
+}
+
+.gameInfoDisplay a {
+    text-decoration: none;
+}
+
+.gameInfoDisplay p {
+    padding-left: 25px;
+}
+.gameInfoDisplay ul, li {
+    margin-left: 25px;
+}
+
+/*.gameList {*/
+/*	max-height: 600px;*/
+/*}*/
+
+.gameList p {
+    padding-left: 15px;
+}
+
+.gameList th {
+    text-align: center;
+}
+
+.gameList td {
+    text-align: center;
+    padding: 10px;
+}
+
+.gameList tr:last-child {
+    border-bottom: 0;
+}
+
+.gameList select {
+    display: block;
+    margin: 0 auto;
+}
+
+.gameList a {
+    text-decoration: none;
+}
+
+/* used only on the account management page, used to display the information about the user's account */
+.accountTable table, td, th {
+    border: none;
+    padding: 5px;
+    text-align: left;
+}
+
+
+.accountField h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* show the dropdown menu */
+}
+
+.displaySpace {
+    display: flex;
+}
+
+
+.blogPosts ul, li {
+    font-size: 18px
+}
+
+h2 {
+    text-align: left;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
