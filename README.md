@@ -1,5 +1,7 @@
-# ZombiesTipsTricks
+# Zombiepedia
 
-Zombies Tips & Tricks (placeholder name) is a website created out of love for the Call of Duty zombies gamemode. Over the course of its life, many maps from different creators have been released and those maps have been covered by different publications and websites, but I've found that many websites don't cover *every* map. That's where I come in.
+Zombiepedia was a website created out of love for the Call of Duty zombies gamemode during the pandemic. Over the course of Call of Duty Zombies, there have been dozens of maps and gamemodes released by several different studios. While several media outlets and individuals have created guides for these maps, it felt like there was not one place where you could consistently find great information. 
 
-I, along with a group of friends, are working on this project to create one dedicated location for all zombies maps. All guides will be easy to read and be written in plain text (meaning no videos or super fancy shmancy slideshows). By doing this, we are hoping to make your Easter Egg completion as easy as possible. 
+During the midst of the pandemic, a group of friends and I worked on creating Zombiepedia, a website dedicated to providing the best possible information for all zombies maps. All guides were intended to be created as plainly and accessible as possible (no fancy videos or slideshows).
+
+At this time, Zombiepedia is now defunct and will survive solely as an archived repo.
